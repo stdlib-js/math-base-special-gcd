@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/math-base-special-gcd",
+  "version": "0.0.0",
+  "description": "Compute the greatest common divisor (gcd).",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-gcd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "math",
+    "mathematics",
+    "euclid",
+    "euclidean",
+    "stein",
+    "binary gcd",
+    "greatest common divisor",
+    "greatest common factor",
+    "highest common factor",
+    "greatest common measure",
+    "highest common divisor",
+    "gcd",
+    "gcf",
+    "hcf",
+    "gcm",
+    "arithmetic",
+    "integer"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
