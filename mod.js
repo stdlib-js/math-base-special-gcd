@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./mod.d.ts" />
+var r=function(r){return r!=r},f=Math.floor;var n=function(r){return f(r)===r},t=Number.POSITIVE_INFINITY,u=Number.NEGATIVE_INFINITY;var o=r,e=n,a=t,N=u,i=function(r,f){var n,t=0;if(0===r)return f;if(0===f)return r;for(;0==(1&r)&&0==(1&f);)r>>>=1,f>>>=1,t+=1;for(;0==(1&r);)r>>>=1;for(;f;){for(;0==(1&f);)f>>>=1;r>f&&(n=f,f=r,r=n),f-=r}return r<<t},I=function(r,f){var n,t=1;if(0===r)return f;if(0===f)return r;for(;r%2==0&&f%2==0;)r/=2,f/=2,t*=2;for(;r%2==0;)r/=2;for(;f;){for(;f%2==0;)f/=2;r>f&&(n=f,f=r,r=n),f-=r}return t*r};var v=function(r,f){return o(r)||o(f)||r===a||f===a||r===N||f===N?NaN:e(r)&&e(f)?(r<0&&(r=-r),f<0&&(f=-f),r<=2147483647&&f<=2147483647?i(r,f):I(r,f)):NaN};export{v as default};
+//# sourceMappingURL=mod.js.map
