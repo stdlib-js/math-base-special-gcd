@@ -65,7 +65,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.gcd;
+})();
 })();
 </script>
 ```
@@ -131,6 +133,7 @@ v = gcd( 48, NaN );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var a;
 var b;
@@ -144,6 +147,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( 'gcd(%d,%d) = %d', a, b, v );
 }
 
+})();
 })();
 </script>
 </body>
@@ -255,7 +259,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/umd
+[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
