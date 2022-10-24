@@ -231,7 +231,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-gcd/main/LICENSE
 
-[gcd]: http://en.wikipedia.org/wiki/Greatest_common_divisor
+[gcd]: https://en.wikipedia.org/wiki/Greatest_common_divisor
 
 [@stein:1967]: https://doi.org/10.1016/0021-9991(67)90047-2
 
