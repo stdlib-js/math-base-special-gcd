@@ -54,7 +54,7 @@ The [greatest common divisor][gcd] (gcd) of two non-zero integers `a` and `b` is
 ## Usage
 
 ```javascript
-import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@esm/index.mjs';
+import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.2.0-esm/index.mjs';
 ```
 
 #### gcd( a, b )
@@ -117,7 +117,7 @@ v = gcd( 48, NaN );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@esm/index.mjs';
+import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.2.0-esm/index.mjs';
 
 var a;
 var b;
