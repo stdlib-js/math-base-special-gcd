@@ -56,7 +56,7 @@ The [greatest common divisor][gcd] (gcd) of two non-zero integers `a` and `b` is
 To use in Observable,
 
 ```javascript
-gcd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js' )
+gcd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var gcd = require( 'path/to/vendor/umd/math-base-special-gcd/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -139,7 +139,7 @@ v = gcd( 48, NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
