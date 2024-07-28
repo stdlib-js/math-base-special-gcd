@@ -54,6 +54,11 @@ The [greatest common divisor][gcd] (gcd) of two non-zero integers `a` and `b` is
 ## Usage
 
 ```javascript
+import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gcd/tags). For example,
+
+```javascript
 import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.3.0-esm/index.mjs';
 ```
 
@@ -116,7 +121,7 @@ v = gcd( 48, NaN );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@v0.3.0-esm/index.mjs';
+import gcd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@esm/index.mjs';
 
 var a = discreteUniform( 100, 0, 50 );
 var b = discreteUniform( a.length, 0, 50 );
