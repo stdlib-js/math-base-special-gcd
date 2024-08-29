@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-08-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
 -   [`9816dec`](https://github.com/stdlib-js/stdlib/commit/9816dece59ddf974693cf1626f3b5823d652e3c4) - **bench:** fix description [(#2709)](https://github.com/stdlib-js/stdlib/pull/2709) _(by Gunj Joshi)_
 
 </details>
@@ -135,8 +136,7 @@ No changes reported for this release.
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
