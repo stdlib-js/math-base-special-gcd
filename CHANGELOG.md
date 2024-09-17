@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0c994ee`](https://github.com/stdlib-js/stdlib/commit/0c994ee22c77c217aa48d6833e4e11ffe733e9bb) - **docs:** update descriptions and add structured package data [(#2914)](https://github.com/stdlib-js/stdlib/pull/2914) _(by Gunj Joshi, Athan Reines)_
 -   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
 -   [`9816dec`](https://github.com/stdlib-js/stdlib/commit/9816dece59ddf974693cf1626f3b5823d652e3c4) - **bench:** fix description [(#2709)](https://github.com/stdlib-js/stdlib/pull/2709) _(by Gunj Joshi)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 
 </section>
