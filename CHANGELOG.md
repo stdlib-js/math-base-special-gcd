@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-04-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`0c994ee`](https://github.com/stdlib-js/stdlib/commit/0c994ee22c77c217aa48d6833e4e11ffe733e9bb) - **docs:** update descriptions and add structured package data [(#2914)](https://github.com/stdlib-js/stdlib/pull/2914) _(by Gunj Joshi, Athan Reines)_
 -   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
@@ -27,10 +28,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
+-   Harsh
 
 </section>
 
