@@ -47,32 +47,38 @@ The [greatest common divisor][gcd] (gcd) of two non-zero integers `a` and `b` is
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-gcd
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var gcd = require( '@stdlib/math-base-special-gcd' );
+gcd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var gcd = require( 'path/to/vendor/umd/math-base-special-gcd/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.gcd;
+})();
+</script>
 ```
 
 #### gcd( a, b )
@@ -127,10 +133,15 @@ v = gcd( 48, NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var gcd = require( '@stdlib/math-base-special-gcd' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gcd@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var opts = {
     'dtype': 'float64'
@@ -139,6 +150,11 @@ var a = discreteUniform( 100, 0, 50, opts );
 var b = discreteUniform( a.length, 0, 50, opts );
 
 logEachMap( 'gcd(%d,%d) = %d', a, b, gcd );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -147,90 +163,7 @@ logEachMap( 'gcd(%d,%d) = %d', a, b, gcd );
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/gcd.h"
-```
-
-#### stdlib_base_gcd( a, b )
-
-Computes the greatest common divisor (gcd).
-
-```c
-double v = stdlib_base_gcd( 48.0, 18.0 );
-// returns 6.0
-```
-
-The function accepts the following arguments:
-
--   **a**: `[in] double` input value.
--   **b**: `[in] double` input value.
-
-```c
-double stdlib_base_gcd( const double a, const double b );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/gcd.h"
-#include <stdio.h>
-
-int main( void ) {
-    const double a[] = { 24.0, 32.0, 48.0, 116.0, 33.0 };
-    const double b[] = { 12.0, 6.0, 15.0, 52.0, 22.0 };
-
-    double out;
-    int i;
-    for ( i = 0; i < 5; i++ ) {
-        out = stdlib_base_gcd( a[ i ], b[ i ] );
-        printf( "gcd(%lf, %lf) = %lf\n", a[ i ], b[ i ], out );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -336,7 +269,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm
+[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/umd
 
 <!-- </related-links> -->
 
