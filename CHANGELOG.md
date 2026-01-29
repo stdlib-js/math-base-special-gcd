@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.1">
 
-## Unreleased (2025-08-11)
+## 0.3.1 (2026-01-29)
 
 <section class="bug-fixes">
 
@@ -23,7 +23,7 @@
 <details>
 
 -   [`b82a6a3`](https://github.com/stdlib-js/stdlib/commit/b82a6a3e079a541f151f4391e64f7a2242363a73) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
--   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
+-   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh Yadav, Athan Reines)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`0c994ee`](https://github.com/stdlib-js/stdlib/commit/0c994ee22c77c217aa48d6833e4e11ffe733e9bb) - **docs:** update descriptions and add structured package data [(#2914)](https://github.com/stdlib-js/stdlib/pull/2914) _(by Gunj Joshi, Athan Reines)_
 -   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
@@ -43,7 +43,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
