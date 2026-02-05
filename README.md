@@ -297,8 +297,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-gcd.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-gcd
 
-[test-image]: https://github.com/stdlib-js/math-base-special-gcd/actions/workflows/test.yml/badge.svg?branch=v0.3.1
-[test-url]: https://github.com/stdlib-js/math-base-special-gcd/actions/workflows/test.yml?query=branch:v0.3.1
+[test-image]: https://github.com/stdlib-js/math-base-special-gcd/actions/workflows/test.yml/badge.svg?branch=v0.3.2
+[test-url]: https://github.com/stdlib-js/math-base-special-gcd/actions/workflows/test.yml?query=branch:v0.3.2
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-gcd/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-gcd?branch=main
